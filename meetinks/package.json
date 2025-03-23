@@ -1,0 +1,25 @@
+{
+  "name": "meet-inks",
+  "version": "1.0.0",
+  "main": "text_generation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-apps/meet": "^0.3.0",
+    "@google-cloud/local-auth": "^2.1.0",
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^9.14.2",
+    "googleapis": "^144.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.280"
+  }
+}

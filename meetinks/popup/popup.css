@@ -1,0 +1,147 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General container styling */
+.container {
+  width: 300px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%; /* This makes the image circular */
+  overflow: hidden; /* Ensures the image fits within the circular boundary */
+}
+
+
+h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Button styling */
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Main content styling */
+main {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recent-reports {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.recent-reports h2 {
+  text-align: center; /* This centers the heading */
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#reports-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+#reports-list li {
+  font-size: 0.9rem;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+/* Footer styling */
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.settings {
+  background-color: #007bff;
+}
+
+.settings:hover {
+  background-color: #0069d9;
+}
+.recording-status {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.recent-recordings ul {
+  list-style: none;
+  padding: 0;
+}
+
+#responseContainer {
+  font-size: 14px;
+  color: #333;
+}
+
+.hidden {
+  display: none;
+}
+
+#loading-screen {
+  font-size: 1.5em;
+  color: blue;
+}
+
+#results-section {
+  font-size: 1.2em;
+  color: green;
+}

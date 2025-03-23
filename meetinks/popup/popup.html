@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeetInks</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../assets/meetinks (1).png" alt="MeetInks Logo" class="logo">
+            <h1>MeetInks</h1>
+        </header>
+        <main>
+            <div id="loading-screen" class="hidden">Loading...</div>
+            <div id="results-section" class="hidden">
+                <p id="api-results">API results will appear here.</p>
+                <button id="refresh-button">Refresh</button>
+            </div>
+            <button class="btn start-recording" id="startSummary">Start Meeting Summary</button>
+            <button class="btn stop-recording" id="stopSummary">Stop Meeting Summary</button>
+            <div class="recording-status">
+                <p id="recording-indicator">Not Recording</p>
+            </div>
+            <div class="recent-recordings">
+                <h2>Recent Recordings</h2>
+                <ul id="recordings-list">
+                    <!-- Dynamically populated recordings list -->
+                    <li>No recordings available.</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <button class="btn settings">Settings</button>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
